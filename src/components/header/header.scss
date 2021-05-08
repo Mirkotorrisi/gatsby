@@ -1,0 +1,49 @@
+.header_container{
+    background-size: 200%;
+
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
+.header_text {
+    background-image: url("../../images/cool-background.png");
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    /* Below is not needed */
+    display:block;
+    font-size: 100px;
+    font-family: arial;
+    text-align: center;
+    font-weight: bold;
+    animation: animate-background infinite 10s;
+    text-shadow: 2px 2px 3px rgba(255,255,255,0.5);
+
+  }
+  .header_border{
+    animation: animate-background infinite 10s;
+    background-image: url("../../images/cool-background.png");
+    box-shadow:  2px 2px 3px rgba(255,255,255,0.5);
+    width: 500px;
+    height: 3px;
+  }
+@keyframes animate-background{
+    0%{
+        background-position: 0% 20%;
+    }
+    25%{
+        background-position: 0% 70%;
+
+    }
+    50%{
+        background-position: 20% 70%;
+
+    }
+    75%{
+        background-position: 40% 20%;
+
+    }
+    100%{
+        background-position: 0% 20%;
+
+    }
+}

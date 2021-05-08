@@ -1,0 +1,102 @@
+.login-div{
+    margin: 0 auto;
+    z-index: 100;
+    font-family: 'Lato', sans-serif;
+    max-width: 430px;
+    padding: 35px;
+    border-radius: 15px;
+    background: #c9c9c9;
+    box-shadow: 13px 13px 20px #868686, -13px -13px 20px #c7c7c7;
+}
+
+.logo{
+    background: url("../../images/logo.jpeg");
+    background-size: contain;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+    box-shadow: 0px 0px 0px 5px #cfcfcf, 8px 8px 15px #a7aaaf, -8px -8px 15px #d1d1d1;
+}
+
+.title{
+    text-align: center;
+    color: #551A8B;
+    font-size: 28px;
+    padding-top: 24px;
+    letter-spacing: 0.5px;
+}
+
+.sub-title{
+    text-align: center;
+    font-size: 15px;
+    padding-top: 7px;
+    letter-spacing: 3px;
+}
+
+.fields {
+    width: 100%;
+    padding: 20px 5px 5px 5px;
+}
+.fields input{
+    width: 100%;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 18px;
+    color: #555;
+    padding: 20px 10px 20px 15px;
+}
+.username, .password {
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: inset 8px 8px 8px #9b9b9b, inset -8px -8px 8px #d8d8d8;
+}
+
+.fileds svg{
+    height: 22px;
+    margin: 0 10px -3px 25px;
+}
+
+.signin-button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    background: #551A8B;
+    box-shadow: 3px 3px 8px #b3b3b3, -3px -3px 8px #dbdbdb;
+    transition: 0.5s;
+}
+
+.signin-button:hover{
+    background: #B448C6;
+}
+.signin-button:active{
+    background: #1da88a;
+}
+.link{
+    padding-top: 20px;
+    text-align: center;
+}
+.link a{
+    text-decoration: none;
+    color: #B448C6;
+    font-size: 15px;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active
+{
+    transition: background-color 5000s ease-in-out 0s;
+    width: 100%;
+    border-radius: inherit;
+ -webkit-box-shadow: 0 0 15px 2px #541a8b7e inset !important;
+}
